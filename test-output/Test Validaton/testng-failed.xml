@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Validaton]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="ToDOLIST(failed)" parallel="methods">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.automation.test.ToDoListTest">
+        <methods>
+          <include name="verifyLinks"/>
+          <include name="initiatePrerequiste"/>
+          <include name="verifyMultiCompletedToDoList"/>
+          <include name="verifyCompletedToDoList"/>
+          <include name="verifyMultiClearCompleteToDoList"/>
+          <include name="methodEnd"/>
+          <include name="addingMultiToDoList"/>
+          <include name="verifyCompletionChanges"/>
+          <include name="initializeDriver"/>
+          <include name="verifyClearCompleteToDoList"/>
+        </methods>
+      </class> <!-- com.automation.test.ToDoListTest -->
+    </classes>
+  </test> <!-- ToDOLIST(failed) -->
+</suite> <!-- Failed suite [Test Validaton] -->

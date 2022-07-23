@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Validaton">
+              <span class="suite-name border-passed">Test Validaton</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Validaton">
+                    <span>C:\Users\imran\mobiletest\WebAutomation\testng_web.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Validaton">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Validaton">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Validaton">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Validaton">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Validaton">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Validaton">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Validaton" class="hide-methods passed suite-Test_Validaton"> (hide)</a> <!-- hide-methods passed suite-Test_Validaton -->
+                      <a href="#" panel-name="suite-Test_Validaton" class="show-methods passed suite-Test_Validaton"> (show)</a> <!-- show-methods passed suite-Test_Validaton -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Validaton">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="addingFirstToDoList(org.testng.TestRunner@9ce91fb)">addingFirstToDoList(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="addingMultiToDoList(org.testng.TestRunner@9ce91fb)">addingMultiToDoList(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyClearCompleteToDoList(org.testng.TestRunner@9ce91fb)">verifyClearCompleteToDoList(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyClearCrossMarkToDoList(org.testng.TestRunner@9ce91fb)">verifyClearCrossMarkToDoList(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyCompletedToDoList(org.testng.TestRunner@9ce91fb)">verifyCompletedToDoList(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyCompletionChanges(org.testng.TestRunner@9ce91fb)">verifyCompletionChanges(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyCompletionCount(org.testng.TestRunner@9ce91fb)">verifyCompletionCount(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyEditFunction(org.testng.TestRunner@9ce91fb)">verifyEditFunction(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyLinks(org.testng.TestRunner@9ce91fb)">verifyLinks(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyMultiClearCompleteToDoList(org.testng.TestRunner@9ce91fb)">verifyMultiClearCompleteToDoList(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Validaton" title="com.automation.test.ToDoListTest" hash-for-method="verifyMultiCompletedToDoList(org.testng.TestRunner@9ce91fb)">verifyMultiCompletedToDoList(org.testng.TestRunner@9ce91fb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Validaton -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Validaton" class="panel Test_Validaton">
+          <div class="suite-Test_Validaton-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.test.ToDoListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingFirstToDoList(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- addingFirstToDoList(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">addingFirstToDoList</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingMultiToDoList(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- addingMultiToDoList(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">addingMultiToDoList</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClearCompleteToDoList(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyClearCompleteToDoList(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyClearCompleteToDoList</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClearCrossMarkToDoList(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyClearCrossMarkToDoList(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyClearCrossMarkToDoList</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompletedToDoList(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyCompletedToDoList(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyCompletedToDoList</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompletionChanges(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyCompletionChanges(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyCompletionChanges</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompletionCount(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyCompletionCount(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyCompletionCount</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditFunction(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyEditFunction(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyEditFunction</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinks(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyLinks(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyLinks</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMultiClearCompleteToDoList(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyMultiClearCompleteToDoList(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyMultiClearCompleteToDoList</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMultiCompletedToDoList(org.testng.TestRunner@9ce91fb)">
+                  </a> <!-- verifyMultiCompletedToDoList(org.testng.TestRunner@9ce91fb) -->
+                  <span class="method-name">verifyMultiCompletedToDoList</span>
+                  <span class="parameters">(org.testng.TestRunner@9ce91fb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Validaton-class-passed -->
+        </div> <!-- panel Test_Validaton -->
+        <div panel-name="test-xml-Test_Validaton" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\imran\mobiletest\WebAutomation\testng_web.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test Validaton&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ToDOLIST&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.test.ToDoListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ToDOLIST --&gt;
+&lt;/suite&gt; &lt;!-- Test Validaton --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Validaton" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Validaton</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ToDOLIST (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Validaton" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Validaton</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Validaton" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Validaton</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Validaton');
+function tableData_Test_Validaton() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addingMultiToDoList')
+data.setCell(0, 2, 'com.automation.test.ToDoListTest')
+data.setCell(0, 3, 19047);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyClearCompleteToDoList')
+data.setCell(1, 2, 'com.automation.test.ToDoListTest')
+data.setCell(1, 3, 16150);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyMultiClearCompleteToDoList')
+data.setCell(2, 2, 'com.automation.test.ToDoListTest')
+data.setCell(2, 3, 14331);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCompletionChanges')
+data.setCell(3, 2, 'com.automation.test.ToDoListTest')
+data.setCell(3, 3, 14100);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyClearCrossMarkToDoList')
+data.setCell(4, 2, 'com.automation.test.ToDoListTest')
+data.setCell(4, 3, 13963);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addingFirstToDoList')
+data.setCell(5, 2, 'com.automation.test.ToDoListTest')
+data.setCell(5, 3, 8054);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCompletionCount')
+data.setCell(6, 2, 'com.automation.test.ToDoListTest')
+data.setCell(6, 3, 7022);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyEditFunction')
+data.setCell(7, 2, 'com.automation.test.ToDoListTest')
+data.setCell(7, 3, 4618);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLinks')
+data.setCell(8, 2, 'com.automation.test.ToDoListTest')
+data.setCell(8, 3, 4193);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyMultiCompletedToDoList')
+data.setCell(9, 2, 'com.automation.test.ToDoListTest')
+data.setCell(9, 3, 4111);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCompletedToDoList')
+data.setCell(10, 2, 'com.automation.test.ToDoListTest')
+data.setCell(10, 3, 3951);
+window.suiteTableData['Test_Validaton']= { tableData: data, tableDiv: 'times-div-Test_Validaton'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Test_Validaton">
+              </div> <!-- times-div-Test_Validaton -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Validaton" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Validaton</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Validaton" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Validaton" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.test.ToDoListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initiatePrerequiste(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">2323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addingFirstToDoList(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">53922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=addingFirstToDoList status=SUCCESS method=ToDoListTest.addingFirstToDoList(org.test...)</span>
+                <span class="method-start">61976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">63509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addingMultiToDoList(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">85326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=addingMultiToDoList status=SUCCESS method=ToDoListTest.addingMultiToDoList(org.test...)</span>
+                <span class="method-start">104373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">106773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClearCompleteToDoList(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">120463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyClearCompleteToDoList status=SUCCESS method=ToDoListTest.verifyClearCompleteT...)</span>
+                <span class="method-start">136627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">138123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClearCrossMarkToDoList(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">141440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyClearCrossMarkToDoList status=SUCCESS method=ToDoListTest.verifyClearCrossMar...)</span>
+                <span class="method-start">155414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">156419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompletedToDoList(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">161410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyCompletedToDoList status=SUCCESS method=ToDoListTest.verifyCompletedToDoList(...)</span>
+                <span class="method-start">165361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">166588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompletionChanges(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">170914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyCompletionChanges status=SUCCESS method=ToDoListTest.verifyCompletionChanges(...)</span>
+                <span class="method-start">185015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">186032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompletionCount(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">190703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyCompletionCount status=SUCCESS method=ToDoListTest.verifyCompletionCount(org....)</span>
+                <span class="method-start">197725 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">198493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditFunction(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">203140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyEditFunction status=SUCCESS method=ToDoListTest.verifyEditFunction(org.testng...)</span>
+                <span class="method-start">207759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">208607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLinks(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">213093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyLinks status=SUCCESS method=ToDoListTest.verifyLinks(org.testng.ITestContext)...)</span>
+                <span class="method-start">217286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">218399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMultiClearCompleteToDoList(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">223564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyMultiClearCompleteToDoList status=SUCCESS method=ToDoListTest.verifyMultiClea...)</span>
+                <span class="method-start">237898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">239124 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMultiCompletedToDoList(org.testng.TestRunner@9ce91fb)</span>
+                <span class="method-start">243815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodEnd([TestResult name=verifyMultiCompletedToDoList status=SUCCESS method=ToDoListTest.verifyMultiComplete...)</span>
+                <span class="method-start">247926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">250199 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
